@@ -76,7 +76,7 @@ Các mô hình Machine Learning được sử dụng trong bài:
 - Học tuần tự để giảm lỗi dự đoán
 - Hiệu quả cao nhưng nhạy với tuning
 
-  ## 5. Kết quả đánh giá
+## 5. Kết quả đánh giá
 
 Do dataset có **mất cân bằng (Good ~70%, Bad ~30%)**, các metric được sử dụng bao gồm:
 
