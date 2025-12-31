@@ -51,3 +51,8 @@ Các thuộc tính trong dataset phản ánh:
 
 Pipeline của bài toán được xây dựng theo các bước sau:
 
+[Input CSV] --> [Preprocess & Encode] --> [Train Models] --> [Save .pkl Files]
+                                                                    |
+                                                                    v
+[User Input] --> [Load .pkl Files] --> [Transform Data] --> [Predict Result]
+
