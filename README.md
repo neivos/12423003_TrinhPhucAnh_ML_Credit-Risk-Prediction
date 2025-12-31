@@ -100,7 +100,7 @@ Khuyến khích sử dụng môi trường ảo (Virtual Environment) để trá
 
 **Bước 1.1: Clone dự án về máy**
 ```bash
-git clone <link-repo>
+git clone <https://github.com/neivos/12423003_TrinhPhucAnh_ML_Credit-Risk-Prediction/tree/main>
 cd Credit-Risk-Prediction
 ```
 **Bước 1.2: Cài đặt thư viện**
