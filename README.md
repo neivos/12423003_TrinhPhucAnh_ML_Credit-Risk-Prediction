@@ -56,3 +56,43 @@ Pipeline của bài toán được xây dựng theo các bước sau:
                                                                     v
 [User Input] --> [Load .pkl Files] --> [Transform Data] --> [Predict Result]
 
+## 4. Mô hình sử dụng
+
+Các mô hình Machine Learning được sử dụng trong bài:
+
+### 🔹 Logistic Regression (LR)
+- Mô hình phân loại tuyến tính
+- Được dùng làm mô hình tham chiếu (baseline)
+
+### 🔹 Decision Tree (DT)
+- Mô hình dựa trên cây quyết định
+- Dễ hiểu, dễ giải thích
+- Tuy nhiên dễ overfitting
+
+### 🔹 Random Forest (RF)
+- Mô hình ensemble kết hợp nhiều Decision Tree
+- Giảm overfitting, độ ổn định cao
+- Hoạt động tốt với dữ liệu dạng bảng
+
+### 🔹 XGBoost (XGB)
+- Thuật toán boosting mạnh
+- Học tuần tự để giảm lỗi dự đoán
+- Hiệu quả cao nhưng nhạy với tuning
+
+  ## 5. Kết quả đánh giá
+
+Do dataset có **mất cân bằng (Good ~70%, Bad ~30%)**, các metric được sử dụng bao gồm:
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- **ROC – AUC (metric chính)**
+
+### 🔹 Nhận xét
+- Random Forest đạt **ROC–AUC cao nhất**
+- XGBoost cho kết quả tốt nhưng chưa vượt Random Forest
+- Decision Tree dùng làm baseline để so sánh
+
+---
+
