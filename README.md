@@ -113,13 +113,13 @@ pip install -r requirements.txt
 ### 2. Huấn luyện mô hình
 Trước khi chạy Demo, bạn cần chạy file train để xử lý dữ liệu và tạo file model
 ```bash
-python train_model.py
+python app/train_model.py
 ```
 Màn hình thông báo thành công. Thư mục data/pkl/ sẽ xuất hiện chứa các file model.
 ### 3. Chạy demo
 Khởi động ứng dụng web Streamlit.
 ```bash
-streamlit run app.py
+streamlit run app/app.py
 ```
 Trình duyệt sẽ tự động mở tại: http://localhost:8501.
 Nhập thông tin và bấm "Dự báo" để xem kết quả.
