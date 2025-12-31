@@ -88,8 +88,7 @@ Do dataset có **mất cân bằng (Good ~70%, Bad ~30%)**, các metric được
 
 ### 🔹 Nhận xét
 - Random Forest đạt **ROC–AUC cao nhất**
-- XGBoost cho kết quả tốt nhưng chưa vượt Random Forest
-- Decision Tree dùng làm baseline để so sánh
+- XGBoost cho kết quả tốt nhưng chưa vượt Random Forest do dataset chưa tối ưu cho mô hình này
 
 ---
 ## 6. Hướng dẫn chạy chương trình
@@ -123,9 +122,9 @@ Trình duyệt sẽ tự động mở tại: http://localhost:8501.
 Nhập thông tin và bấm "Dự báo" để xem kết quả.
 
 ## Tác giả
-Họ tên: Trịnh Phúc Anh
-Mã Sinh viên  : 12423003
-Lớp : 12423TN
-Trường Đại học sư phạm kỹ thuật Hưng Yên
+-  Họ tên: Trịnh Phúc Anh
+-  Mã Sinh viên  : 12423003
+-  Lớp : 12423TN
+-  Trường Đại học sư phạm kỹ thuật Hưng Yên
 ####
 Dự án được thực hiện với mục đích học tập và nghiên cứu Machine Learning, không sử dụng cho mục đích thương mại.
