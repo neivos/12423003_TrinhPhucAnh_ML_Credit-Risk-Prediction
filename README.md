@@ -1,4 +1,4 @@
-# DỰ ĐOÁN RỦI RO TÍN DỤNG KHÁCH HÀNG BẰNG MACHINE LEARNING
+# DỰ ĐOÁN RỦI RO TÍN DỤNG KHÁCH HÀNG - MACHINE LEARNING
 
 ---
 
@@ -92,4 +92,40 @@ Do dataset có **mất cân bằng (Good ~70%, Bad ~30%)**, các metric được
 - Decision Tree dùng làm baseline để so sánh
 
 ---
+## 6. Hướng dẫn chạy chương trình
 
+Để chạy dự án, vui lòng thực hiện tuần tự các bước sau:
+
+### 1. Cài đặt môi trường
+Khuyến khích sử dụng môi trường ảo (Virtual Environment) để tránh xung đột thư viện.
+
+**Bước 1.1: Clone dự án về máy**
+```bash
+git clone <link-repo>
+cd Credit-Risk-Prediction
+```
+**Bước 1.2: Cài đặt thư viện**
+```bash
+pip install -r requirements.txt
+```
+### 2. Huấn luyện mô hình
+Trước khi chạy Demo, bạn cần chạy file train để xử lý dữ liệu và tạo file model
+```bash
+python train_model.py
+```
+Màn hình thông báo thành công. Thư mục data/pkl/ sẽ xuất hiện chứa các file model.
+### 3. Chạy demo
+Khởi động ứng dụng web Streamlit.
+```bash
+streamlit run app.py
+```
+Trình duyệt sẽ tự động mở tại: http://localhost:8501.
+Nhập thông tin và bấm "Dự báo" để xem kết quả.
+
+## Tác giả
+Họ tên: Trịnh Phúc Anh
+Mã Sinh viên  : 12423003
+Lớp : 12423TN
+Trường Đại học sư phạm kỹ thuật Hưng Yên
+####
+Dự án được thực hiện với mục đích học tập và nghiên cứu Machine Learning, không sử dụng cho mục đích thương mại.
